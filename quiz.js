@@ -27,7 +27,7 @@ if(parseInt(guess) === randomNumber){
     if(parseInt(guessLess) === randomNumber){
         correctGuess = true;
     }
-//Test and see if a player is correct and respond
+//Test and see if a player is correct and respond 
 } if(correctGuess ){
     document.write("You guessed correctly")
 } else {
